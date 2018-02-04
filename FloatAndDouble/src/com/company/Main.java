@@ -22,5 +22,10 @@ public class Main {
         // 3. Print out the result.
         //
         // NOTES: 1 pound is equal to 0.45359237 kilograms.
+
+        double numPounds = 200d;
+        double converetedKilograms = numPounds * 0.45359237d;
+        System.out.println("Kilograms = " + converetedKilograms);
+        
     }
 }
